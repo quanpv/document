@@ -1,0 +1,21 @@
++log id branch: git log --oneline
+
++xoa branch tren remote: git push origin --delete <branch_name>
+
++xoa branch local: git branch -D branch
+
++revert: git reset --hard
+
++git branch all: git branch -v -a
+
++git checkout remote: git checkout -b remote_branch origin/remote_branch
+
++ git clone branch remote: git clone -b my-branch https://git@github.com/username/myproject.git
+
+// create a git new
+echo "# demofirebase" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/quanpv/demofirebase.git
+git push -u origin master

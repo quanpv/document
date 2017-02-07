@@ -1,0 +1,5 @@
+Find : Ctrl + F
+
+Find And Replace In Single Class: Ctrl + R
+
+Find And Replace In Whole Project:Ctrl + Shift+ R
